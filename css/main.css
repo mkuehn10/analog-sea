@@ -1,0 +1,117 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3f94e7;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    height: 75px;
+    width: auto;
+    padding-top: 45px;
+    margin: 0 auto 20px;
+}
+
+.form-box {
+    width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.signup-header {
+    text-align: center;
+    color: #55565d;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.signup-info {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 320px;
+    height: 55px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+:-moz-placeholder {
+ /* Firefox 18- */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+:-ms-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.signup-button {
+    color: white;
+    background-color: #65c470;
+    width: 320px;
+    border: none;
+    font-size: 22px;
+    padding: 15px;
+    height: 55px;
+    border-radius: 5px;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+.signup-button:hover {
+    background-color: green;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+.forgot-password {
+    text-align: center;
+    display: block;
+}
+
+a.forgot-password:link {
+    color: #55565d;
+    font-size: 12px;
+}
+
+.login {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.login a {
+    color: white;
+}
